@@ -1,0 +1,116 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 120px; /* Define a altura da navbar */
+    width: 97.37%;  /* Faz com que a navbar tenha a largura total da tela */
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra elegante abaixo da navbar */
+    margin: 0; /* Remove qualquer margem */
+    padding: 0 20px; /* Adiciona um padding horizontal para evitar que o conteúdo fique muito próximo da borda da tela */
+}
+
+.navbar-logo {
+    height: 70px; /* Ajuste de acordo com o tamanho desejado para o logo */
+    width: auto;
+    margin: 10px 0px;
+    display: block;
+
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    flex-grow: 1; /* Permite que o contêiner de links cresça e ocupe o espaço restante */
+}
+
+.navigation {
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar .navigation:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.invite {
+    height: 40px;
+    padding: 10px;
+    background-color: green;
+    margin: 30px 10px; 
+    border-radius: 20px;
+}
+
+.invite a {
+    color: #f0f0f0;
+    padding: 5px 15px; 
+}
+
+/* Estilize a caixa centralizada */
+.caixa {
+    display: block;
+    margin: auto; /* Isso centralizará a caixa horizontalmente */
+    padding: 20px; /* Espaçamento interno para afastar os órgãos da borda */
+    text-align: center; /* Centralize o conteúdo dentro da caixa */
+}
+
+/* Estilize o título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilize a lista de órgãos */
+.orgaos {
+    margin: auto;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilize cada caixa de órgão */
+.orgao {
+    margin: auto;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    display: flex; 
+    align-items: center; 
+}
+
+/* Estilize o link e torne-o clicável */
+.orgao a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px; 
+}
+
+/* Estilize a imagem e o nome */
+.orgao img {
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+    order: 1; 
+}
+
+.orgao span {
+    padding: 20px;
+    font-size: 18px;
+    order: 2;
+}

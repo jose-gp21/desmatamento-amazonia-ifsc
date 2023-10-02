@@ -1,0 +1,135 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #666;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 120px; /* Define a altura da navbar */
+    width: 97.37%;  /* Faz com que a navbar tenha a largura total da tela */
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra elegante abaixo da navbar */
+    margin: 0; /* Remove qualquer margem */
+    padding: 0 20px; /* Adiciona um padding horizontal para evitar que o conteúdo fique muito próximo da borda da tela */
+}
+
+.navbar-logo {
+    height: 70px; /* Ajuste de acordo com o tamanho desejado para o logo */
+    width: auto;
+    margin: 10px 0px;
+    display: block;
+
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    flex-grow: 1; /* Permite que o contêiner de links cresça e ocupe o espaço restante */
+}
+
+.navigation {
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar .navigation:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.invite {
+    height: 40px;
+    padding: 10px;
+    background-color: green;
+    margin: 30px 10px; 
+    border-radius: 20px;
+}
+
+.invite a {
+    color: #f0f0f0;
+    padding: 5px 15px; 
+}
+
+.header-curso{
+    display: block;
+    margin: auto;
+    max-width: 1200px;
+}
+.header-curso h1{
+    text-align: center;
+}
+.header-curso p{
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+iframe{
+    margin: auto;
+
+}
+.banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;   
+    height: 500px;
+    background-image: url("https://amazonia.exame.com/wp-content/uploads/2021/12/GettyImages-137578327-scaled.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 40px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra elegante abaixo do banner */
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 15%; /* Ajuste a posição vertical do texto como preferir */
+    left: 50%;
+    transform: translateX(-50%); /* Isso centralizará o texto horizontalmente */
+    color: #fff; /* Cor branca para o texto */
+    text-align: center; /* Alinha o texto ao centro */
+    z-index: 10; /* Garante que o texto fique acima da imagem */
+}
+
+.banner-text h2 {
+    color: aliceblue;
+    font-size: 2em; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento entre o título e a descrição */
+}
+
+.banner-text p {
+    color: aliceblue;
+    font-size: 1.2em; /* Tamanho da descrição */
+}
+.onca{
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+}
+footer > p {
+    text-align: center;
+}
+
+
